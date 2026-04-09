@@ -127,7 +127,7 @@
   .step-desc{font-size:13px;color:var(--muted);line-height:1.7}
 
   /* ESCOPO */
-  .escopo-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:60px}
+  .escopo-grid{display:grid;grid-template-columns:1fr;gap:2px;margin-top:60px;max-width:700px}
   @media(max-width:768px){.escopo-grid{grid-template-columns:1fr}}
   .escopo-block{background:var(--navy-mid);padding:clamp(32px,5vw,52px) clamp(24px,4vw,48px)}
   .escopo-block-tag{font-size:9px;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
@@ -135,6 +135,7 @@
   .escopo-list{list-style:none;display:flex;flex-direction:column;gap:12px}
   .escopo-list li{display:flex;gap:14px;font-size:13px;color:var(--muted);line-height:1.5}
   .escopo-list li::before{content:'—';color:var(--gold);flex-shrink:0;margin-top:1px}
+  @media(max-width:600px){.escopo-inner-grid{grid-template-columns:1fr!important}}
 
   /* INVESTIMENTO */
   .invest-section{text-align:center;padding:clamp(80px,10vw,120px) clamp(20px,5vw,40px);position:relative;overflow:hidden}
@@ -334,33 +335,20 @@
   <h2 class="section-title reveal">Escopo <em>completo</em><br>de entrega.</h2>
   <div class="escopo-grid">
     <div class="escopo-block reveal">
-      <p class="escopo-block-tag">Pacote Select — Social Media</p>
-      <h3 class="escopo-block-title">Gestão de Conteúdo & Redes Sociais</h3>
+      <p class="escopo-block-tag">Pacote Select</p>
+      <h3 class="escopo-block-title">Gestão Completa de Conteúdo, Redes Sociais & Tráfego Pago</h3>
       <ul class="escopo-list">
-        <li>Gestão completa da conta no Instagram</li>
-        <li>12 postagens no feed mensais</li>
-        <li>Reels publicados no Instagram, TikTok e YouTube</li>
-        <li>1 turno mensal de produção de conteúdo (média 6 Reels + fotos)</li>
-        <li>Linha editorial para Stories + 4 sequências de Social Selling mensais</li>
-        <li>Edição de criativos: carrossel, estático e legendas de Reels</li>
-        <li>Estratégia de temas para Reels</li>
-        <li>Reunião semanal de planejamento (1 hora)</li>
-        <li>Estratégia de consciência de marca via tráfego pago</li>
-      </ul>
-    </div>
-    <div class="escopo-block reveal">
-      <p class="escopo-block-tag">Pacote Select — Performance</p>
-      <h3 class="escopo-block-title">Tráfego Pago & Growth Digital</h3>
-      <ul class="escopo-list">
-        <li>Gestão completa da conta no Instagram</li>
-        <li>12 postagens no feed mensais</li>
-        <li>Reels publicados no Instagram, TikTok e YouTube</li>
-        <li>1 turno mensal de produção de conteúdo (média 6 Reels + fotos)</li>
-        <li>Edição de criativos: carrossel, estático e legendas de Reels</li>
-        <li>Copywriting de todos os conteúdos e legendas</li>
-        <li>Gestão de tráfego pago — Meta Ads e Google Ads</li>
+        <li>Gestão de conta no Instagram</li>
+        <li>Criação e desenvolvimento de 12 postagens no feed mensais</li>
+        <li>Reels publicados nos canais do Instagram, TikTok e YouTube</li>
+        <li>1 turno para produção de conteúdo previamente agendado (média 6 Reels + fotos mensais)</li>
+        <li>Edição de criativos (carrossel, estático e legendas de Reels)</li>
+        <li>Estratégia nos temas para Reels</li>
+        <li>Desenvolvimento e planejamento</li>
+        <li>Reunião quinzenal para planejamento de 1 hora</li>
+        <li>Copywriting de todos os conteúdos e legendas de post</li>
+        <li>Gestão de tráfego pago para Meta Ads e Google Ads</li>
         <li>Criação e gerenciamento de 1 landing page</li>
-        <li>Reunião quinzenal de planejamento (1 hora)</li>
       </ul>
     </div>
   </div>
